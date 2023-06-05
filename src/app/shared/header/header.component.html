@@ -1,0 +1,26 @@
+
+
+    <div class="row box">
+        <div class="col-md-12">
+            <div class="flexContainer">
+                <div class="item item-1">
+                    <h1 class="title">Cloud 3D</h1>
+                </div>
+                <div class="item-2">
+                    <img src="assets/images/CementingLogo.svg" alt="logo" />
+
+                    <button (click)="toggleView()" *ngIf="!isMax">
+                        <img src="assets/images/max-icon.svg" alt="icon" />
+                    </button>
+
+                    <button (click)="toggleView()" *ngIf="isMax">
+                        <img src="assets/images/min-icon.svg" alt="icon" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+

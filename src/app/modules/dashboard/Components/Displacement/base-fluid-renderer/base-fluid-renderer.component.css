@@ -1,0 +1,23 @@
+.dechart2 {
+  border: 1px solid #0d91f0;
+  border-radius: 4px;
+  height: 172px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.chart-btn button {
+  background: none;
+  border: 0;
+  outline: 0;
+  margin-left: 0.625rem;
+  margin-bottom: 0.25rem;
+  padding: 0;
+}
+.chart-h {
+  font-size: 12px;
+  font-family: 'Segoe UI';
+  font-weight: 600;
+  line-height: 16px;
+  color: white
+}

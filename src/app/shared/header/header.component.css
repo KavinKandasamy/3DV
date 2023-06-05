@@ -1,0 +1,38 @@
+.flexContainer {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 38px;
+    font-family: "Segoe UI";
+    /* color: #ffff; */
+  }
+
+  .item-1 {
+    font-size: 1.25rem;
+  }
+
+  .box {
+    background-color: #3b4957;
+  }
+
+  .flexContainer .item-1 h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+  }
+
+  button{
+    background: transparent;
+    border: none;
+    margin-left: 3.125rem;
+  }
+
+  .title{
+    padding-top: 12px;
+  }

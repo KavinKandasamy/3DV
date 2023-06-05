@@ -1,0 +1,147 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+
+
+/* HTML5 display-role reset for older browsers */
+@font-face {
+  font-family: segoeui;
+  src: url(/src/assets/fonts/SEGOEUI.TTF);
+}
+
+
+body {
+  color: #292829 !important;
+  font-family: Segoe UI, Arial, sans-serif !important;
+  background: linear-gradient(270.04deg,
+      #040b1b 0.04%,
+      #1f232c 50%,
+      #040b1b 99.97%) !important;
+  color: #fff !important;
+
+}
+
+.ngx-slider.depthslider{
+  width: 100px;
+}
+
+.ngx-slider.depthslider .ngx-slider-pointer {
+
+
+  cursor: pointer;
+  width: 21px !important;
+  height: 7px !important;
+  background-color: #0d91f0;
+  border-radius: 5px;
+
+  left: -9px !important;
+
+}
+
+.ngx-slider.vertical.depthslider .ngx-slider-span.ngx-slider-bubble.ngx-slider-limit.ngx-slider-ceil {
+  display: none;
+}
+
+.ngx-slider.vertical.depthslider .ngx-slider-span.ngx-slider-bubble.ngx-slider-limit.ngx-slider-floor {
+  display: none;
+}
+
+
+.ngx-slider .ngx-slider-pointer:after {
+  display: none;
+}
+
+.ngx-slider.vertical.depthslider {
+
+  height: 92% !important;
+
+}
+
+.ngx-slider.vertical.depthslider .ngx-slider-pointer {
+  left: -10px !important;
+
+}
+
+.ngx-slider.depthslider .ngx-slider-pointer:after {
+  display: none;
+}
+
+.ngx-slider.depthslider .ngx-slider-bar {
+  bottom: 0;
+  left: auto;
+  width: 1px !important;
+  height: 100%;
+  background: darkgray;
+}
+
+.ngx-slider.depthslider .ngx-slider-selection {
+  background: #0d91f0 !important;
+}
+
+.ngx-slider.depthslider .ngx-slider-limit {
+  font-weight: bold !important;
+  color: white !important;
+}
+
+
+.ngx-slider.depthslider .ngx-slider-tick {
+  cursor: pointer;
+  width: 25px !important;
+  height: 1px !important;
+  background: darkgray;
+  border-radius: 13% !important;
+  top: -10px !important;
+  left: -8px !important;
+}
+
+.ngx-slider.depthslider .ngx-slider-bubble {
+  cursor: default;
+  bottom: 16px;
+  /* padding: 1px 3px; */
+  color: white;
+  font-size: 12px;
+}
+
+.ngx-slider.vertical.depthslider .ngx-slider-bubble {
+  left: -47px !important;
+
+}
+
+
+.ngx-slider.timerslider .ngx-slider-pointer:after {
+  display: none;
+}
+
+.ngx-slider.timerslider .ngx-slider-bar {
+  background: darkgray;
+  height: 1px;
+}
+
+.ngx-slider.timerslider .ngx-slider-bubble {
+
+  display: none;
+}
+
+.ngx-slider.timerslider {
+  pointer-events: none;
+  margin: 0px 0 0px !important;
+  width: 200% !important;
+}
+
+.ngx-slider.timerslider .ngx-slider-pointer {
+  opacity: 1;
+  visibility: visible;
+  width: 5px;
+  height: 17px;
+  margin-top: 7px;
+  background-color: red;
+
+}
+
+.ngx-slider.timerslider .ngx-slider-selection {
+  background: red !important;
+}
+
+
+
+
